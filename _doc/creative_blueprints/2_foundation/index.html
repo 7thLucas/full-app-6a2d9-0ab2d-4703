@@ -1,0 +1,46 @@
+<style>
+  .mode-landscape .sl-outer { flex-direction: row; }
+  .mode-portrait .sl-outer { flex-direction: column; }
+  .mode-landscape .sl-narrative { width: 58%; height: 100%; }
+  .mode-portrait .sl-narrative { width: 100%; flex: 1; }
+  .mode-landscape .sl-visual { width: 42%; height: 100%; }
+  .mode-portrait .sl-visual { width: 100%; height: 35%; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-outer flex h-full">
+
+    <!-- Narrative side -->
+    <div class="sl-narrative flex flex-col justify-center p-10 gap-5">
+      <div>
+        <span class="text-xs font-bold tracking-widest text-slate-400 uppercase mb-2 block">Foundation</span>
+        <h2 class="text-3xl font-black text-slate-900 leading-tight">Where Signal<br/>Meets Strategy.</h2>
+      </div>
+
+      <!-- Problem -->
+      <div class="bg-slate-50 rounded-xl p-6 border-l-4 border-blue-500">
+        <p class="text-xs font-bold text-blue-600 uppercase tracking-widest mb-2">The Problem</p>
+        <p class="text-sm text-slate-700 leading-relaxed">
+          Aviator teams operate on intuition. Without a structured signal layer, patterns are invisible, prediction quality is untracked, and there's no feedback loop — confidence stays low and decisions stay risky.
+        </p>
+      </div>
+
+      <!-- Solution -->
+      <div class="bg-slate-900 rounded-xl p-6 border-l-4 border-cyan-400">
+        <p class="text-xs font-bold text-cyan-400 uppercase tracking-widest mb-2">The Solution</p>
+        <p class="text-sm text-slate-200 leading-relaxed">
+          An AI intelligence layer that processes historical round data into structured, auditable signals — with real-time trend windows and per-signal accuracy tracking. Your team moves from guesswork to evidence.
+        </p>
+      </div>
+    </div>
+
+    <!-- Visual side -->
+    <div class="sl-visual overflow-hidden">
+      <img
+        src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=professional%20team%20reviewing%20analytics%20dashboard%20with%20signal%20charts%20and%20trend%20graphs%2C%20strategic%20environment%2C%20blue%20and%20teal%20palette%2C%20editorial%20photography"
+        alt="Team reviewing signal analytics"
+        class="w-full h-full object-cover"
+      />
+    </div>
+
+  </div>
+</section>
