@@ -1,0 +1,1 @@
+Android app predicting aviator signals using AI and historical data for current and future trends. Includes signal history and accuracy m. For [my team].
