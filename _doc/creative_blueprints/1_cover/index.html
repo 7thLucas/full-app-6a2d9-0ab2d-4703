@@ -1,0 +1,41 @@
+<style>
+  .mode-landscape .sl-layout { flex-direction: row; }
+  .mode-portrait .sl-layout { flex-direction: column; }
+  .mode-landscape .sl-left { width: 52%; height: 100%; }
+  .mode-portrait .sl-left { width: 100%; flex: 1; }
+  .mode-landscape .sl-right { width: 48%; height: 100%; }
+  .mode-portrait .sl-right { width: 100%; height: 40%; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-layout flex h-full">
+
+    <!-- Content panel -->
+    <div class="sl-left flex flex-col justify-between bg-slate-900 p-12">
+      <div>
+        <span class="text-xs font-bold tracking-widest text-cyan-400 uppercase">AI · Signal Intelligence · Team Tool</span>
+      </div>
+      <div>
+        <div class="w-12 h-1 bg-blue-500 mb-6 rounded-full"></div>
+        <h1 class="text-4xl font-black text-white leading-snug mb-5">
+          Signal Intelligence,<br/>Built for<br/>Your Edge.
+        </h1>
+        <p class="text-sm text-slate-300 leading-relaxed max-w-xs">
+          AI-powered Aviator signal prediction with real-time accuracy tracking — purpose-built for your team.
+        </p>
+      </div>
+      <div>
+        <data-attribution />
+      </div>
+    </div>
+
+    <!-- Visual panel -->
+    <div class="sl-right overflow-hidden">
+      <img
+        src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=abstract%20AI%20waveform%20signal%20visualization%2C%20glowing%20teal%20and%20electric%20blue%20data%20streams%20on%20deep%20navy%20background%2C%20premium%20editorial%20photography%20style"
+        alt="Signal visualization"
+        class="w-full h-full object-cover"
+      />
+    </div>
+
+  </div>
+</section>
