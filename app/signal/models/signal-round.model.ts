@@ -25,7 +25,7 @@ export class SignalRound extends TimeStamps {
   confidence!: number;
 
   /** Outcome of the prediction */
-  @prop({ required: true, enum: ["HIT", "MISS", "PENDING"], default: "PENDING" })
+  @prop({ required: true, type: String, enum: ["HIT", "MISS", "PENDING"], default: "PENDING" })
   outcome!: SignalOutcome;
 
   /** Pattern label used by the prediction engine */
