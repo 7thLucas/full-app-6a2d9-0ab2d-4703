@@ -1,6 +1,4 @@
-# Aviator Signal AI — Product Overview
-
-> **Working title** — final app name to be confirmed during onboarding.
+# Avisignal — Product Overview
 
 ## What It Is
 
